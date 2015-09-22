@@ -1,0 +1,888 @@
+.logo{width:90px;margin:0 auto;}
+.logo span{float:left;height:45px;line-height:43px;margin-left:5px;font-size:21px;color:#ffffff;}
+body {
+margin: 0px auto; font-size: 15px; 
+}
+em {
+	font-style: normal;
+}
+var {
+	font-style: normal;
+}
+a {
+	color: rgb(51, 102, 153);
+}
+a img {
+	border: currentColor; border-image: none;
+}
+img {
+	vertical-align: top;
+}
+.news-title {
+	margin: 17px 5% 0px; line-height: 28px; font-size: 23px;
+}
+.news-info {
+	margin: 6px 5% 0px; height: 22px; line-height: 22px; font-size: 12px;
+}
+.author {
+	padding: 0px 5%; margin-top: 15px;
+}
+.news-date {
+	color: rgb(172, 172, 172); float: left;
+}
+.news-font {
+	margin-left: 6px; float: right;
+}
+.news-enlink {
+	margin-left: 6px; float: right;
+}
+.news-cnum {
+	margin-left: 6px; float: right;
+}
+.news-font {
+	padding: 0px 6px; border: 1px solid rgb(176, 176, 176); border-image: none; color: rgb(51, 102, 153); line-height: 20px;
+}
+.news-enlink {
+	background: rgb(70, 70, 70); padding: 0px 3px; color: rgb(255, 255, 255);
+}
+.news-enlink a {
+	color: rgb(255, 255, 255);
+}
+.news-cnum {
+	color: rgb(51, 102, 153); text-indent: 18px; margin-right: 8px; position: relative;
+}
+.news-cnum a {
+	width: 100%; height: 100%; display: block;
+}
+.news-lead {
+	background: rgb(241, 241, 241); margin: 10px 5% 0px; padding: 4px 9px; text-align: justify; color: rgb(85, 85, 85); line-height: 25px; -ms-text-justify: distribute-all-lines;
+}
+.media_video {
+	margin: 10px auto 20px; width: 300px;
+}
+.news-photo {
+	margin: 13px 5% 0px; position: relative;
+}
+.news-photo-link {
+	display: block; position: relative;
+}
+.news-photo img {
+	width: 100%;
+}
+.news-photo-txt {
+	color: rgb(149, 149, 149); line-height: 22px; margin-top: 8px; display: block;
+}
+.news-con {
+	margin: 10px 5% 0px; color: rgb(70, 70, 70); line-height: 160%; font-size: 17px;
+}
+.news-con p {
+	text-align: justify; margin-bottom: 8px; -ms-text-justify: distribute-all-lines;
+}
+.news-con a {
+	color: rgb(51, 102, 153);
+}
+.news-con img {
+	width: 100% !important; height: auto !important;
+}
+.news-page-nav {
+	padding: 0px 5%; color: rgb(0, 0, 0); line-height: 36px; margin-top: 20px;
+}
+.news-page-title {
+	padding: 0px 5%; line-height: 36px;
+}
+.news-page-title a {
+	height: 100%; display: block;
+}
+.news-page {
+	padding: 0px 5%; height: 44px; line-height: 44px; font-family: "黑体"; margin-top: 10px; border-bottom-color: rgb(51, 102, 153); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.news-all {
+	float: left; position: relative;
+}
+.news-prev {
+	float: right;
+}
+.news-page-num {
+	float: right;
+}
+.news-next {
+	float: right;
+}
+.news-page-num {
+	margin: 5px 10px 0px; color: rgb(139, 134, 132); line-height: 36px; font-size: 14px;
+}
+.news-func {
+	padding: 0px 5%; height: 40px; margin-top: 29px;
+}
+.news-ding {
+	background: rgb(241, 241, 241); border-radius: 18px; height: 36px; line-height: 36px; text-indent: 52px; padding-right: 27px; margin-top: 2px; float: left; position: relative;
+}
+
+.news-ding em.ding-end {
+	background-position: 0px 0px;
+}
+
+.app-download-link {
+	width: 100%; height: 100%; display: block;
+}
+.news-tag {
+	margin: 18px 5% 0px; line-height: 32px; position: relative;
+}
+
+.news-tag-list {
+	margin-left: 24px;
+}
+.news-tag-list li {
+	margin-right: 18px; display: inline-block;
+}
+.news-related {
+	padding: 0px 5%; line-height: 20px; margin-top: 16px;
+}
+.news-related a {
+	color: rgb(70, 70, 70);
+}
+.news-related-title {
+	color: rgb(0, 0, 0); line-height: 32px; font-size: 18px; font-weight: bold;
+}
+.news-topic-bg {
+	background: rgb(98, 179, 242); width: 57px; height: 20px; text-align: center; color: rgb(255, 255, 255); font-size: 12px; margin-right: 5px; display: inline-block;
+}
+.photo-icon {
+	background-position: -61px -73px;
+}
+.news-related-list {
+	color: rgb(70, 70, 70); margin-top: 10px;
+}
+.news-related-list li {
+	margin-bottom: 15px;
+}
+.shiyan {
+	margin: 30px 5% 0px;
+}
+.shiyanNav {
+	background: rgb(241, 241, 241); overflow: hidden; border-bottom-color: rgb(93, 68, 46); border-bottom-width: 2px; border-bottom-style: solid; -ms-zoom: 1;
+}
+.shiyanNav li {
+	width: 33%; height: 28px; text-align: center; color: rgb(93, 68, 46); line-height: 28px; font-size: 12px; margin-left: -1px; border-left-color: rgb(255, 255, 255); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.shiyanNav li.current {
+	background: rgb(93, 68, 46); color: rgb(255, 255, 255);
+}
+.shiyanCon {
+	background: rgb(241, 241, 241); padding: 10px;
+}
+.shiyanCon dl {
+	overflow: hidden; -ms-zoom: 1;
+}
+.shiyanCon dt {
+	margin-right: 10px; float: left;
+}
+.shiyanCon dt img {
+	width: 110px; height: 70px; display: block;
+}
+.shiyanCon dd {
+	overflow: hidden; -ms-zoom: 1;
+}
+.shiyanCon dd h4 {
+	padding: 10px 0px 3px; font-size: 15px;
+}
+.shiyanCon dd p {
+	line-height: 14px; font-size: 10px;
+}
+.comment-hot-title {
+	margin: 33px 5% 0px; color: rgb(0, 0, 0); line-height: 24px; font-size: 18px; font-weight: bold;
+}
+.comment-new-title {
+	margin: 33px 5% 0px; color: rgb(0, 0, 0); line-height: 24px; font-size: 18px; font-weight: bold;
+}
+.comment-hot-title span {
+	display: inline-block;
+}
+.comment-new-title span {
+	display: inline-block;
+}
+.comment-hot-title var {
+	background: rgb(237, 28, 36); left: 0px; top: -2px; width: 36px; height: 16px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative; z-index: 100;
+}
+.comment-new-title var {
+	background: rgb(237, 28, 36); left: 0px; top: -2px; width: 36px; height: 16px; text-align: center; color: rgb(255, 255, 255); line-height: 16px; font-size: 12px; margin-left: 5px; display: inline-block; position: relative; z-index: 100;
+}
+.comment-new-title var {
+	background: rgb(98, 179, 242);
+}
+.comment-hot-list {
+	margin-top: 10px;
+}
+.comment-hot-list > li {
+	padding: 0px 5%; border-bottom-color: rgb(236, 236, 236); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.comment-new-list > li {
+	padding: 0px 5%; border-bottom-color: rgb(236, 236, 236); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmt-head {
+	height: 24px; line-height: 24px; margin-top: 10px;
+}
+.cmt-icon-hot {
+	background: rgb(255, 0, 0); border-radius: 50%; width: 18px; height: 18px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-size: 12px; margin-left: 5px; float: right;
+}
+.cmt-icon-top {
+	background: rgb(255, 0, 0); border-radius: 50%; width: 18px; height: 18px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-size: 12px; margin-left: 5px; float: right;
+}
+.cmt-icon-fine {
+	background: rgb(255, 0, 0); border-radius: 50%; width: 18px; height: 18px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-size: 12px; margin-left: 5px; float: right;
+}
+.cmt-icon-top {
+	background: rgb(247, 177, 23);
+}
+.cmt-icon-fine {
+	background: rgb(0, 135, 203);
+}
+.cmt-username {
+	color: rgb(51, 102, 153); overflow: hidden; font-size: 14px; font-weight: normal; float: left; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 50%;
+}
+.cmt-from {
+	color: rgb(139, 134, 132); font-size: 12px; margin-left: 10px; float: left;
+}
+.cmt-body {
+	color: rgb(70, 70, 70); line-height: 18px; font-size: 14px; margin-top: 3px;
+}
+.cmt-floor {
+	background: rgb(241, 241, 241); margin: 10px 0px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;
+}
+.cmt-floor li {
+	padding: 10px; border-bottom-color: rgb(231, 231, 231); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.cmt-floor-username {
+	color: rgb(51, 102, 153); font-weight: normal; margin-bottom: 3px; display: block;
+}
+.cmt-floor-num {
+	top: 10px; right: 10px; color: rgb(139, 134, 132); font-size: 14px; position: absolute; z-index: 100;
+}
+.cmt-floor-con {
+	color: rgb(153, 153, 153);
+}
+.cmt-foot {
+	margin: 8px 0px 12px; height: 24px; color: rgb(139, 134, 132); line-height: 24px; font-size: 12px;
+}
+.cmt-time {
+	float: left;
+}
+.cmt-ding {
+	padding-right: 20px; float: right; position: relative;
+}
+
+.cmt-step {
+	padding-right: 20px; float: right; position: relative;
+}
+
+.cmt-reply {
+	padding-right: 20px; float: right; position: relative;
+}
+
+.cmt-vline {
+	width: 10px; text-align: center; color: rgb(234, 234, 234); float: right;
+}
+.red {
+	color: rgb(237, 28, 36);
+}
+.red em {
+	background-position-y: -22px;
+}
+.cmt-all-link {
+	text-align: center; color: rgb(70, 70, 70); line-height: 40px; border-bottom-color: rgb(236, 236, 236); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.cmt-all-link a {
+	width: 100%; height: 100%; color: rgb(70, 70, 70); display: block;
+}
+.news-recommend {
+	padding: 0px 5%; margin-top: 30px;
+}
+.news-recommend-title {
+	color: rgb(0, 0, 0); line-height: 32px; font-size: 18px; font-weight: bold;
+}
+.news-recommend-list {
+	color: rgb(70, 70, 70); line-height: 24px; margin-top: 10px;
+}
+.news-recommend-list a {
+	color: rgb(70, 70, 70);
+}
+.news-recommend-list li {
+	margin-bottom: 12px;
+}
+.news-search {
+	background: rgb(241, 241, 241); height: 50px;
+}
+.news-search-ipt {
+	margin: 10px 0px 0px 5%; border: currentColor; border-image: none; width: 76%; height: 30px; line-height: 30px; text-indent: 5px; font-size: 14px; float: left;
+}
+.news-search-bt {
+	width: 18%; height: 50px; float: right;
+}
+
+.news-nav {
+	background: rgb(0, 80, 132); text-align: center; line-height: 32px; font-size: 13px;
+}
+.news-nav a {
+	width: 20%; color: rgb(255, 255, 255); display: inline-block;
+}
+a.news-nav-now {
+	color: rgb(247, 177, 23);
+}
+.news-foot {
+	background: rgb(0, 114, 188); padding: 0px 5%; height: 104px; color: rgb(255, 255, 255); line-height: 24px; font-size: 12px; position: relative;
+}
+.news-foot a {
+	width: 100%; height: 100%; color: rgb(255, 255, 255); display: block;
+}
+.news-login-txt {
+	padding-top: 5px;
+}
+.news-login {
+	font-size: 14px; display: inline-block;
+}
+.news-pcview {
+	font-size: 14px; display: inline-block;
+}
+.news-copyright {
+	line-height: 18px;
+}
+
+.top-box-mask {
+	left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 1;
+}
+.tb-bar {
+	background: rgb(241, 241, 241); left: 0px; width: 100%; bottom: 0px; display: none; position: fixed; z-index: 999;
+}
+.tb-share {
+	background: rgb(241, 241, 241); left: 0px; width: 100%; bottom: 0px; display: none; position: fixed; z-index: 999;
+}
+.tb-comment {
+	background: rgb(241, 241, 241); left: 0px; width: 100%; bottom: 0px; display: none; position: fixed; z-index: 999;
+}
+.tb-bar {
+	height: 45px; text-align: center; color: rgb(70, 70, 70); line-height: 30px; border-top-color: rgb(224, 224, 224); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.tb-bar-l {
+	background: rgb(255, 255, 255); margin: 7px 1%; border: 1px solid rgb(224, 224, 224); border-image: none; height: 30px; display: inline-block; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.tb-bar-m {
+	background: rgb(255, 255, 255); margin: 7px 1%; border: 1px solid rgb(224, 224, 224); border-image: none; height: 30px; display: inline-block; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.tb-bar-r {
+	background: rgb(255, 255, 255); margin: 7px 1%; border: 1px solid rgb(224, 224, 224); border-image: none; height: 30px; display: inline-block; box-sizing: border-box; -webkit-box-sizing: border-box;
+}
+.tb-bar-l {
+	width: 50%; text-align: left; color: rgb(215, 215, 215); text-indent: 10px;
+}
+.tb-bar-m {
+	top: -1px; width: 21%; font-size: 12px; position: relative;
+}
+
+.tb-bar-m a {
+	width: 100%; height: 100%; color: rgb(70, 70, 70); display: block;
+}
+.tb-bar-r {
+	background: rgb(22, 144, 207); width: 15%; color: rgb(255, 255, 255);
+}
+.tb-bar-r a {
+	color: rgb(255, 255, 255);
+}
+.tb-share {
+	height: 140px; text-align: center; line-height: 36px;
+}
+.tb-share-title {
+	color: rgb(70, 70, 70); font-size: 18px;
+}
+.tb-share a {
+	margin: 5px 20px 0px; color: rgb(70, 70, 70); display: inline-block;
+}
+
+.sinawb-logo {
+	background-position: -62px 0px;
+}
+
+.tb-comment {
+	padding-bottom: 9px;
+}
+.tb-blank {
+	height: 0px; overflow: hidden; display: none;
+}
+.tbc-head {
+	padding: 0px 5%; height: 52px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; border-bottom-color: rgb(218, 218, 218); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tb-cancel-bt {
+	width: 65px; height: 30px; margin-top: 12px;
+}
+.tb-enter-bt {
+	width: 65px; height: 30px; margin-top: 12px;
+}
+.tb-cancel-bt {
+	background: rgb(187, 187, 187); float: left;
+}
+.tb-enter-bt {
+	background: rgb(255, 181, 2); float: right;
+}
+.tbc-user {
+	padding: 0px 5%; height: 44px; color: rgb(51, 102, 153); line-height: 44px;
+}
+.tbc-username {
+	width: 70%; overflow: hidden; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.tbc-user-reply {
+	padding: 0px 5%; line-height: 44px;
+}
+.tbc-user-reply var {
+	color: rgb(51, 102, 153);
+}
+.tbc-loginout {
+	float: right;
+}
+.tbc-loginbar {
+	padding: 0px 5%; height: 44px; text-align: center; color: rgb(51, 102, 153); line-height: 44px;
+}
+.tbc-loginbar a {
+	width: 100%; height: 100%; display: block;
+}
+.tbc-login {
+	width: 45px; float: left;
+}
+.tbc-login-tip {
+	color: rgb(70, 70, 70); font-size: 12px; float: left;
+}
+.tbc-register {
+	width: 45px; float: right;
+}
+.tbc-ipt {
+	margin: 0px auto; padding: 3px; border: currentColor; border-image: none; width: 90%; height: 70px; line-height: 22px; font-family: arial,"黑体"; font-size: 16px; display: block; box-sizing: border-box; -webkit-box-sizing: border-box; resize: none;
+}
+.tbc-sync-cxlog {
+	padding: 0px 5%; height: 22px; line-height: 22px; font-size: 14px; margin-top: 10px;
+}
+.tbc-sync-wblog {
+	padding: 0px 5%; height: 22px; line-height: 22px; font-size: 14px; margin-top: 10px;
+}
+.tbc-sync-cxlog em {
+	margin-left: 15px;
+}
+.tbc-sync-wblog em {
+	margin-left: 10px;
+}
+.tbc-sync-wblog span {
+	color: rgb(139, 134, 132); margin-left: 20px;
+}
+.tbc-sync-wblog .bind-bt {
+	color: rgb(51, 102, 153); margin-left: 0px;
+}
+.sync-cxlog-title {
+	display: inline-block;
+}
+.sync-qqwb {
+	display: inline-block;
+}
+.sync-sinawb {
+	display: inline-block;
+}
+.sync-sinawb {
+	background-position: -172px -5px;
+}
+.sync-light {
+	background-position-y: -35px;
+}
+.appLink {
+	background: rgb(235, 235, 235); left: 0px; top: 0px; width: 100%; height: 45px; line-height: 45px; display: none; position: fixed; z-index: 9999;
+}
+.appLink p {
+	color: rgb(85, 85, 85); font-size: 14px;
+}
+.appLink p span {
+	color: rgb(172, 172, 172); font-size: 12px; margin-left: 5px; display: inline;
+}
+.appLink span {
+	display: none;
+}
+.cxj_logo {
+	padding: 3px 10px; float: left;
+}
+.cxj_logo img {
+	border-radius: 6px; width: 39px; height: 39px; vertical-align: top;
+}
+.cxj_open {
+	background: rgb(44, 99, 138); border-radius: 5px; top: 7px; width: 65px; height: 30px; text-align: center; right: 10px; color: rgb(255, 255, 255); line-height: 30px; font-size: 12px; position: absolute;
+}
+.cxj_open img {
+	width: 65px; height: 28px; vertical-align: top;
+}
+.cmpage-title {
+	padding: 0px 5%; line-height: 24px; font-size: 18px; margin-top: 16px;
+}
+.cmpage-cmbt {
+	background: rgb(247, 177, 23); margin: 16px 5% 0px; height: 40px; text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-size: 15px;
+}
+
+.cmpage-margin {
+	margin-top: 20px;
+}
+.cmpage-width {
+	width: 66%;
+}
+.cmpage-width-r {
+	width: 22%;
+}
+.bottom {
+	bottom: 54px;
+}
+.login-box {
+	background: rgba(0, 0, 0, 0.5); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 99999;
+}
+.login-in {
+	background: rgb(255, 255, 255); margin: -165px 0px 0px -135px; left: 50%; top: 50%; width: 270px; height: 330px; position: absolute; z-index: 100;
+}
+.login-title {
+	text-align: center; line-height: 24px; font-size: 20px; margin-top: 34px;
+}
+.login-in-bt {
+	background: rgb(252, 175, 22); margin: 0px auto; width: 216px; height: 36px; text-align: center; color: rgb(255, 255, 255); line-height: 36px;
+}
+.login-other {
+	margin: 5px 27px 0px; height: 40px; line-height: 40px; font-size: 12px;
+}
+.login-qqwb {
+	background-position: -40px -60px;
+}
+.login-wx {
+	background-position: -80px -60px; display: none;
+}
+.login-info {
+	margin: 18px auto; border: 1px solid rgb(225, 224, 224); border-image: none; width: 214px; height: 38px; position: relative;
+}
+.login-info input {
+	padding: 4px; border: currentColor; border-image: none; width: 170px; height: 30px; line-height: 30px; font-size: 16px; margin-left: 35px; display: inline-block;
+}
+.login-pswicon {
+	background-position: -161px -60px;
+}
+.login-find-box {
+	margin: 5px auto 0px; width: 214px; line-height: 32px; overflow: hidden; font-size: 12px;
+}
+.login-find-box a {
+	text-decoration: underline; float: left;
+}
+a.login-reg-link {
+	float: right;
+}
+.pop-up {
+	background: rgb(255, 255, 255); padding: 35px 0px; left: 50%; top: 30%; width: 260px; font-size: 18px; margin-left: -134px; position: fixed; z-index: 10000;
+}
+.bind-msg {
+	margin: 0px 25px 18px; line-height: 24px; font-size: 14px;
+}
+.bind-enter {
+	background: rgb(252, 175, 22); width: 102px; height: 35px; text-align: center; color: rgb(255, 255, 255); line-height: 35px; margin-left: 25px; float: left;
+}
+.bind-close {
+	background: rgb(206, 206, 206); width: 102px; height: 35px; text-align: center; color: rgb(255, 255, 255); line-height: 35px; margin-right: 25px; float: right;
+}
+.enter-btn {
+	background: rgb(252, 175, 22); margin: 0px auto; width: 170px; height: 35px; text-align: center; color: rgb(255, 255, 255); line-height: 35px;
+}
+.bind-success-msg {
+	margin: 0px 47px 18px; text-align: center; line-height: 24px; font-size: 14px;
+}
+.bg {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; z-index: 9999; background-color: rgba(0, 0, 0, 0.8);
+}
+.popup {
+	background: rgb(255, 255, 255); left: 50%; top: 30%; width: 300px; text-align: center; padding-bottom: 20px; font-size: 18px; margin-left: -150px; position: fixed; z-index: 10000;
+}
+.popup p {
+	padding-top: 20px;
+}
+.popup a {
+	margin: 0px 7px; width: 108px; height: 25px; color: rgb(255, 255, 255); line-height: 25px; display: inline-block;
+}
+.popup a.btn1 {
+	background: rgb(252, 175, 22);
+}
+.popup a.btn2 {
+	background: rgb(176, 176, 176);
+}
+.ad-banner {
+	margin: 0px 4%;
+}
+.ad-banner div {
+	padding: 12px 0px !important;
+}
+.head-title {
+	margin: 0px auto; height: 45px; text-align: center; color: rgb(255, 255, 255); line-height: 45px; font-size: 21px;
+}
+.head-title a {
+	color: rgb(255, 255, 255);
+}
+.photos-con {
+	margin: 13px 0px 0px;
+}
+.photos-con li {
+	margin-bottom: 20px;
+}
+.photos-con .news-photo-txt {
+	padding: 0px 5%; text-align: justify;
+}
+.news-rec {
+	background: rgb(0, 114, 188); margin: 20px auto; width: 87%; height: 36px; text-align: center; color: rgb(255, 255, 255); line-height: 36px; font-size: 14px; display: block;
+}
+a.reporter-link {
+	color: rgb(248, 173, 24); text-decoration: underline;
+}
+.share-pop-mask {
+	background: rgba(0, 0, 0, 0.5); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 9999;
+}
+.share-pop-box {
+	background: rgb(255, 255, 255); margin: 100px auto 0px; border-radius: 10px; width: 290px; overflow: hidden;
+}
+.s-p-list {
+	padding: 18px 0px 10px;
+}
+.s-p-list li {
+	padding: 8px 24px; line-height: 18px; font-size: 15px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.s-p-list li:last-child {
+	border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.s-p-list ul {
+	margin-top: 8px;
+}
+.s-p-list ul:nth-child(2) {
+	margin-bottom: 30px;
+}
+.s-p-title {
+	padding: 0px 24px; line-height: 18px; font-size: 16px; font-weight: bold;
+}
+.s-p-list a {
+	color: rgb(0, 114, 188); display: block;
+}
+@media all and (max-height:420px)
+{
+.share-pop-box {
+	margin-top: 50px;
+}
+}
+.news-audio {
+	margin: 10px auto; width: 90%; display: block;
+}
+.news-pay-box {
+	background: rgb(49, 49, 49); color: rgb(255, 255, 255); line-height: 24px; padding-top: 20px; font-size: 15px; margin-top: 20px;
+}
+.news-pay-box img {
+	width: 100%;
+}
+.news-pay-cons {
+	margin: 10px 10%;
+}
+.news-pay-bt {
+	background: rgb(253, 175, 23); margin: 15px 0px; height: 36px; color: rgb(255, 255, 255); line-height: 36px; overflow: hidden; display: block;
+}
+.news-pay-bt em {
+	margin-left: 18px; float: left;
+}
+.news-pay-bt span {
+	margin-right: 24px; float: right;
+}
+.news-pay-txt {
+	font-size: 14px; margin-top: 12px;
+}
+.news-pay-txt a {
+	color: rgb(164, 217, 250); text-decoration: underline;
+}
+.news-pay-tip {
+	text-align: center; color: rgb(255, 255, 255); padding-bottom: 10px; font-size: 12px;
+}
+.news-pay-tip span {
+	color: rgb(246, 119, 26); text-decoration: underline;
+}
+.news-cost {
+	text-align: center; overflow: hidden;
+}
+.news-cost a {
+	width: 33%; float: left; display: block;
+}
+* {
+	margin: 0px; padding: 0px; border: currentColor; border-image: none;
+}
+body {
+	font-family: Arial,"黑体"; -webkit-text-size-adjust: none;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none; outline-style: none;
+}
+a:visited {
+	text-decoration: none; outline-style: none;
+}
+.head {
+	background: rgb(0, 114, 188); width: 100%; position: relative; z-index: 999;
+}
+.main {
+	padding: 0px 15px 20px; position: relative; z-index: 200;
+}
+.bottom {
+	background: rgb(0, 114, 188); height: 45px; text-align: center; color: rgb(204, 204, 204); line-height: 45px; font-size: 11px; position: relative; z-index: 300;
+}
+.bottom .version {
+	line-height: 16px; padding-top: 7px;
+}
+.bottom .version a {
+	color: rgb(255, 255, 255); font-size: 14px;
+}
+.bottom .version a:visited {
+	color: rgb(255, 255, 255);
+}
+.bottom .version span {
+	font-size: 16px;
+}
+.logo {
+	overflow: hidden; -ms-zoom: 1;
+}
+.menu .shut {
+	top: 0px; width: 30px; height: 45px; right: 15px; text-indent: -9999px; display: block; position: absolute;
+}
+.menu .open {
+	top: 0px; width: 30px; height: 45px; right: 15px; text-indent: -9999px; display: block; position: absolute;
+}
+.menubox {
+	background: rgb(195, 195, 195);
+}
+.menubox a {
+	width: 33.3%; height: 42px; text-align: center; color: rgb(71, 71, 71); line-height: 42px; font-size: 18px; font-weight: bold; border-bottom-color: rgb(150, 150, 150); border-bottom-width: 1px; border-bottom-style: solid; display: inline-block;
+}
+.menubox a:visited {
+	color: rgb(71, 71, 71);
+}
+.set .shut {
+	top: 0px; width: 30px; height: 45px; right: 70px; text-indent: -9999px; display: block; position: absolute;
+}
+.set .open {
+	top: 0px; width: 30px; height: 45px; right: 70px; text-indent: -9999px; display: block; position: absolute;
+}
+.setbox {
+	background: rgb(0, 114, 188); top: 45px; right: 0px; position: absolute;
+}
+.setbox a {
+	width: 90px; height: 42px; color: rgb(255, 255, 255); line-height: 42px; padding-left: 17px; font-size: 18px; border-top-color: rgb(150, 197, 227); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.setbox a:visited {
+	color: rgb(255, 255, 255);
+}
+
+.gotop3 {
+	display: none; position: relative; z-index: 999;
+}
+.head .back a {
+	left: 15px; top: 0px;
+}
+.bottom .back a {
+	left: 0px; bottom: 0px;
+}
+.fhrk {
+	padding-top: 1px;
+}
+.fhrk img {
+	width: 100%; display: block;
+}
+.crumb {
+	padding: 15px 0px; color: rgb(51, 102, 153); border-bottom-color: rgb(0, 114, 188); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.crumb a {
+	color: rgb(51, 102, 153);
+}
+.head-title {
+	margin: 0px auto; height: 45px; text-align: center; color: rgb(255, 255, 255); line-height: 45px; font-size: 21px;
+}
+.head-title a {
+	color: rgb(255, 255, 255);
+}
+.login-box {
+	background: rgba(0, 0, 0, 0.5); left: 0px; top: 0px; width: 100%; height: 100%; display: none; position: fixed; z-index: 99999;
+}
+.login-in {
+	background: rgb(255, 255, 255); margin: -165px 0px 0px -135px; left: 50%; top: 50%; width: 270px; height: 330px; position: absolute; z-index: 100;
+}
+.login-title {
+	text-align: center; line-height: 24px; font-size: 20px; margin-top: 34px;
+}
+.login-in-bt {
+	background: rgb(252, 175, 22); margin: 0px auto; width: 216px; height: 36px; text-align: center; color: rgb(255, 255, 255); line-height: 36px;
+}
+.login-other {
+	margin: 5px 27px 0px; height: 40px; line-height: 40px; font-size: 12px;
+}
+.login-qqwb {
+	background-position: -40px -60px;
+}
+.login-wx {
+	background-position: -80px -60px; display: none;
+}
+.login-info {
+	margin: 18px auto; border: 1px solid rgb(225, 224, 224); border-image: none; width: 214px; height: 38px; position: relative;
+}
+.login-info input {
+	padding: 4px; border: currentColor; border-image: none; width: 170px; height: 30px; line-height: 30px; font-size: 16px; margin-left: 35px; display: inline-block;
+}
+
+.login-pswicon {
+	background-position: -161px -60px;
+}
+
+.login-find-box {
+	margin: 5px auto 0px; width: 214px; line-height: 32px; overflow: hidden; font-size: 12px;
+}
+.login-find-box a {
+	text-decoration: underline; float: left;
+}
+a.login-reg-link {
+	float: right;
+}
+.block {
+	display: block;
+}
+.head .nav a {
+	color: rgb(255, 255, 255);
+}
+.head .nav-box {
+	background: rgb(85, 85, 85); left: 0px; top: 42px; width: 100%; text-align: center; color: rgb(215, 215, 215); padding-bottom: 20px; display: none; position: absolute; z-index: 9999;
+}
+.nav-more-box {
+	position: relative;
+}
+.nav-more {
+	overflow: hidden;
+}
+.nav-more a {
+	width: 100%; height: 100%; color: rgb(215, 215, 215); display: block;
+}
+.nav-more li {
+	width: 33%; height: 38px; line-height: 38px; float: left;
+}
+.nav-line-l {
+	background: rgb(127, 127, 127); top: 5%; width: 1px; height: 90%; position: absolute;
+}
+.nav-line-r {
+	background: rgb(127, 127, 127); top: 5%; width: 1px; height: 90%; position: absolute;
+}
+.nav-line-l {
+	left: 33%;
+}
+.nav-line-r {
+	right: 34%;
+}
+.nav-app {
+	height: 36px; line-height: 36px;
+}
+
+li.nav-rec {
+	background: none;
+}
